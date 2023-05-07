@@ -1,0 +1,7 @@
+IMX6U_MINI BOARD
+M:	HaiLong Yang <cameledyang@pm.me>
+S:	Maintained
+F:	board/alientek/imx6u_mini/
+F:	include/configs/imx6u_mini.h
+F:	configs/alientek_imx6u_mini_defconfig
+F:	configs/alientek_imx6u_mini_emmc_defconfig

@@ -1260,6 +1260,10 @@ dtb-$(CONFIG_TARGET_GE_BX50V3) += \
 dtb-$(CONFIG_TARGET_GE_B1X5V2) += imx6dl-b1x5v2.dtb
 dtb-$(CONFIG_TARGET_MX53PPD) += imx53-ppd.dtb
 
+dtb-$(CONFIG_TARGET_IMX6U_MINI) += \
+	imx6ull-alientek-mini.dtb  \
+	imx6ull-alientek-mini-emmc.dtb
+
 # TODO(Linus Walleij <linus.walleij@linaro.org>): Should us a single vexpress
 # Kconfig option to build all of these. See examples above.
 dtb-$(CONFIG_TARGET_VEXPRESS_CA9X4) += vexpress-v2p-ca9.dtb
